@@ -45,9 +45,7 @@ public class MetisPage {
             System.out.println( linkText);
 
             WebElement linkHeader = driver.findElement(By.id(linkText));
-//            cond = linkHeader.getAttribute("className").contains("mw-headline");
-//            System.out.println(cond);
-//            if(!cond) break;
+
             try {
                 cond = we.getAttribute("href").contains(driver.getCurrentUrl().concat("#").concat(linkText));
                 System.out.println(cond);
