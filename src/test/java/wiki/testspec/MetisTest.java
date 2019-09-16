@@ -1,8 +1,6 @@
 package wiki.testspec;
 
-import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 import wiki.pages.*;
 import org.testng.annotations.Test;
@@ -24,6 +22,7 @@ public class MetisTest {
 
         System.setProperty("webdriver.chrome.driver","chromedriver.exe");
         driver.navigate().to(baseURL);
+        driver.manage().window().maximize();
 
         homePage = new HomePage();                              //At Wiki base page
         homePage.confirmAtHomePage(driver);
