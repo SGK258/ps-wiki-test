@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="780307e2-de30-4bfc-9afd-c545b19914f7" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/test/java/wiki/pages/MetisPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/wiki/pages/MetisPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/wiki/testspec/MetisTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/wiki/testspec/MetisTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -30,7 +29,7 @@
         <entry file="file://$PROJECT_DIR$/src/test/java/wiki/pages/MetisPage.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="561">
-              <caret line="45" lean-forward="true" selection-start-line="45" selection-end-line="45" />
+              <caret line="45" selection-start-line="45" selection-end-line="45" />
               <folding>
                 <element signature="method#printNumberOfLinksInContentsSection#0;class#MetisPage#0" />
                 <element signature="method#verifyContentSectionLinksWorking#0;class#MetisPage#0" />
@@ -67,8 +66,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/wiki/testspec/MetisTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="408">
-              <caret line="24" column="44" selection-start-line="24" selection-start-column="44" selection-end-line="24" selection-end-column="44" />
+            <state relative-caret-position="170">
+              <caret line="10" column="22" selection-start-line="10" selection-start-column="22" selection-end-line="10" selection-end-column="30" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -109,16 +108,19 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
-    <option name="x" value="227" />
-    <option name="width" value="1352" />
-    <option name="height" value="1100" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="406" />
+    <option name="y" value="39" />
+    <option name="width" value="1219" />
+    <option name="height" value="1008" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -174,8 +176,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -262,9 +262,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="TestSuite - 2019.09.15 at 02h 57m 03s.xml">
-      <configuration name="TestSuite" configurationId="TestNG" />
-    </history-entry>
     <history-entry file="TestSuite - 2019.09.15 at 02h 58m 09s.xml">
       <configuration name="TestSuite" configurationId="TestNG" />
     </history-entry>
@@ -292,6 +289,9 @@
     <history-entry file="TestSuite - 2019.09.16 at 13h 45m 08s.xml">
       <configuration name="TestSuite" configurationId="TestNG" />
     </history-entry>
+    <history-entry file="TestSuite - 2019.09.16 at 13h 46m 02s.xml">
+      <configuration name="TestSuite" configurationId="TestNG" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -302,7 +302,7 @@
       <window_info id="UI Designer" order="2" />
       <window_info id="Favorites" order="3" side_tool="true" />
       <window_info id="Image Layers" order="4" />
-      <window_info content_ui="combo" id="Project" order="5" visible="true" weight="0.26226014" />
+      <window_info active="true" content_ui="combo" id="Project" order="5" visible="true" weight="0.27536997" />
       <window_info id="Structure" order="6" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Terminal" order="0" />
       <window_info anchor="bottom" id="Event Log" order="1" side_tool="true" />
@@ -310,7 +310,7 @@
       <window_info anchor="bottom" id="Version Control" order="3" />
       <window_info anchor="bottom" id="Message" order="4" />
       <window_info anchor="bottom" id="Find" order="5" />
-      <window_info active="true" anchor="bottom" id="Run" order="6" visible="true" weight="0.41061756" />
+      <window_info anchor="bottom" id="Run" order="6" weight="0.41061756" />
       <window_info anchor="bottom" id="Debug" order="7" weight="0.27952328" />
       <window_info anchor="bottom" id="Cvs" order="8" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="9" weight="0.4" />
@@ -327,13 +327,6 @@
     </layout>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/build.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.seleniumhq.selenium/selenium-api/3.141.59/8e9423038552821844ba5f7713cc4c1e6d9835b7/selenium-api-3.141.59-sources.jar!/org/openqa/selenium/WebElement.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="346">
@@ -345,6 +338,25 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="225">
           <caret line="302" column="7" lean-forward="true" selection-start-line="302" selection-start-column="7" selection-end-line="302" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" selection-start-line="14" selection-end-line="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/wiki/pages/MetisPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="561">
+          <caret line="45" selection-start-line="45" selection-end-line="45" />
+          <folding>
+            <element signature="method#printNumberOfLinksInContentsSection#0;class#MetisPage#0" />
+            <element signature="method#verifyContentSectionLinksWorking#0;class#MetisPage#0" />
+            <element signature="method#findAndClickTheLinkInPersonifiedSection#0;class#MetisPage#0" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -368,22 +380,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/wiki/pages/MetisPage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="561">
-          <caret line="45" lean-forward="true" selection-start-line="45" selection-end-line="45" />
-          <folding>
-            <element signature="method#printNumberOfLinksInContentsSection#0;class#MetisPage#0" />
-            <element signature="method#verifyContentSectionLinksWorking#0;class#MetisPage#0" />
-            <element signature="method#findAndClickTheLinkInPersonifiedSection#0;class#MetisPage#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/wiki/testspec/MetisTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="24" column="44" selection-start-line="24" selection-start-column="44" selection-end-line="24" selection-end-column="44" />
+        <state relative-caret-position="170">
+          <caret line="10" column="22" selection-start-line="10" selection-start-column="22" selection-end-line="10" selection-end-column="30" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
